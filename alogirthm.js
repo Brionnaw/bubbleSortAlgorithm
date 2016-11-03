@@ -31,7 +31,7 @@ function bubblesort(arr){
   lim = arr.length;
   while(lim -- ) { /// walk the array(while loop will run as long as the statement is true (greater than 1) to loop the length of the colllectcion and stop when the statement is false
       for(i=0, j=1; i < lim; i++, j++){ // compare the neighbor paids for loops has 3 parts. where the loops start, run this loops as long as i is less than lim and then how much to increment by each loop)
-  if (arr[i] > arr [j]){ add conditional statements
+  if (arr[i] > arr [j]){ //add conditional statements
         temp = arr[i]; , //[1,3,2] - storing [3]  arr[i]
         arr[i] = arr[j] // cloning the neighbor pair [1,2,2]
         arr[j] = temp; //swapping the number from 2-3 [1,2,3]
